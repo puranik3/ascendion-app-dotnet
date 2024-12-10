@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("bee3b2c3-7bcb-483d-807f-079d2ff93e5e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AscendionApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ece4fd9067e67ed8b6a37af09d934927431c90e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AscendionApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AscendionApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

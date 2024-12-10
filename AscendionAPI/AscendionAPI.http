@@ -1,0 +1,7 @@
+﻿@AscendionAPI_HostAddress = http://localhost:5022
+
+GET {{AscendionAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+

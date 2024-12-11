@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using AscendionAPI.Models.DataAnnotations;
 
-namespace AscendionAPI.Models.Domain;
+namespace AscendionAPI.Models.DTO;
 
 public class WorkshopDto
 {

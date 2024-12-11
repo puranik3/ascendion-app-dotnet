@@ -1,4 +1,4 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -91,7 +91,7 @@ public class WorkshopsController : ControllerBase
         var workshopDomainModel = mapper.Map<Workshop>(updateWorkshopRequestDto);
         workshopDomainModel = await workshopRepository.UpdateAsync(id, workshopDomainModel);
 
-        if (workshopRepository == null)
+        if (workshopDomainModel == null)
         {
             return NotFound();
         }

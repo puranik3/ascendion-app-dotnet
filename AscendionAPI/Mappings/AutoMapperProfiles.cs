@@ -7,11 +7,11 @@ namespace AscendionAPI.Mappings;
 
 public class AutoMapperProfiles : Profile
 {
-	public AutoMapperProfiles()
-	{
-		CreateMap<Region, RegionDto>().ReverseMap();
-		CreateMap<AddRegionRequestDto, Region>().ReverseMap();
-		CreateMap<UpdateRegionRequestDto, Region>().ReverseMap();
+    public AutoMapperProfiles()
+    {
+        CreateMap<Region, RegionDto>().ReverseMap();
+        CreateMap<AddRegionRequestDto, Region>().ReverseMap();
+        CreateMap<UpdateRegionRequestDto, Region>().ReverseMap();
 
         CreateMap<Walk, WalkDto>().ReverseMap();
         CreateMap<AddWalkRequestDto, Walk>().ReverseMap();
@@ -31,7 +31,6 @@ public class AutoMapperProfiles : Profile
         CreateMap<UpdateWorkshopRequestDto, Workshop>().ReverseMap();
         CreateMap<UpdateWorkshopRequestLocationDto, Location>().ReverseMap();
         CreateMap<UpdateWorkshopRequestModesDto, Modes>().ReverseMap();
-
 
         CreateMap<Session, SessionDto>().ReverseMap();
     }
